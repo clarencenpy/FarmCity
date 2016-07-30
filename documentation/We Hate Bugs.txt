@@ -1,0 +1,17 @@
+- display crops: should not show crop when its quantity is 0 (done)
+- can send requests to the same person multiple times (done)
+- gifts can be sent to the same person (done)
+- after accepting friend request, it still remains in the My requests section (done)
+- superpower (done)
+- time format for displaying crops (h/min)
+- when you send gifts to multiple players, only the last player will be displayed (done)
+
+
+DONE:
+
+SSD
+Clear Plot, Buy Crop, Plant Crop, Register, Login, Logout, Harvest Crop
+
+SD
+Plant Crop, Clear Plot, Buy Crop
+- gift notification

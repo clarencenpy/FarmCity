@@ -1,0 +1,38 @@
+Questions for OOAD Consult:
+- Usage of exceptions as logic control VS booleans
+- Javadocs, how detailed must we be? Entity classes kinda self explanatory?
+- Multiplayer - how to prevent players from overwriting each other
+
+OO Considerations
+- data folder structure
+- factory pattern for DAO
+- properties file
+- singleton pattern for “static classes”
+- Multiple UI classes > easy traversal between menu levels
+- Single responsibility Principle
+
+
+JavaDocs guide: http://www.oracle.com/technetwork/articles/java/index-137868.html
+
+SD
+Simplify complicated loops into methods
+required to show else condition too. the return arrow can come after the alt box
+make sure all names match exactly
+
+DD
+Player -> Crop
+Gift should be another entity
+
+CD
+Unnessary classes (GameController)
+Relationships to attributes
+
+Code
+Try catch finally (close resources) *try catch in finally block??
+HashMap<Crop, Harvest>
+Change all DAO to singletons
+for multiplayer safety, why not separate out the player data?
+use setter methods to change player for the DAO
+
+
+

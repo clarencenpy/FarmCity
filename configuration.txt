@@ -1,0 +1,12 @@
+//Multiplier for time required for crops to harvest, use if you are impatient
+speedMultiplier=30
+
+//Sets whether the console is cleared after every action
+clearScreen=true
+
+//Sets whether colors should be displayed
+color=true
+
+//Sets whether animation should be enabled
+animation=true//Sets the name of the directory containing all the csv files
+dataDirectory=data

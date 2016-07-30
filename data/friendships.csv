@@ -1,0 +1,8 @@
+"Sender","Receiver","Status"
+"kevin","layfoo","ACCEPTED"
+"kevin","clarence","ACCEPTED"
+"kevin","yanhan","ACCEPTED"
+"nicholas","yanhan","ACCEPTED"
+"yanhan","clarence","ACCEPTED"
+"clarence","nicholas","REJECTED"
+"nicholas","clarence","PENDING"

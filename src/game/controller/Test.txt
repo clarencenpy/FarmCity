@@ -1,0 +1,38 @@
+
+
+        public GiftController(Player currentPlayer, InventoryDAO inventoryDAO,
+            GiftDAO giftDAO, PlayerDAO playerDAO, FriendDAO friendDAO) {
+           ...
+        }
+
+        ---------------------------------  VS -------------------------------------
+
+        public GiftController(Player currentPlayer) {
+            this.currentPlayer = currentPlayer;
+            this.inventoryDAO = InventoryDAO.getInstance(currentPlayer);
+            this.giftDAO = GiftDAO.getInstance(currentPlayer);
+            this.playerDAO = PlayerDAO.getInstance();
+            this.friendDAO = FriendDAO.getInstance(currentPlayer);
+        }
+
+
+
+            public class PlayerDAOFactory {
+
+                public static PlayerDAO getDAO() {
+                    switch (ENV.properties.getProperty("persistenceMode")) {
+                        case "file":
+                            return PlayerFileDAO.getInstance();
+                            break;
+                        case "mysql":
+                            return PlayerMysqlDAO.getInstance();
+                            break;
+                    }
+                    return null;
+                }
+            }
+
+
+
+
+
